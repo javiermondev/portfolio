@@ -1,0 +1,52 @@
+/* Estilo general de la página */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f0f0;
+}
+
+h1 {
+    color: #007bff;
+    text-align: center;
+}
+
+/* Contenedor de las tarjetas */
+.contenedor {
+  display: flex;
+  flex-wrap: wrap; /* Permite que pasen a otra línea */
+  gap: 20px;
+  justify-content: center;
+  background-color: #007bff;
+  padding: 20px;
+}
+
+/* Estilo de cada tarjeta */
+.card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 15px;
+  width: 30%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Imagen dentro de la tarjeta */
+.card img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Enlace estilo botón */
+.card a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 12px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card a:hover {
+  background-color: darkblue;
+}
