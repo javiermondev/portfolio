@@ -10,15 +10,15 @@ h1 {
     text-align: center;
 }
 
-/* Contenedor de las tarjetas */
+/* Contenedor de las tarjetas
 .contenedor {
   display: flex;
   flex-wrap: wrap; /* Permite que pasen a otra línea */
-  gap: 20px;
+ /* gap: 20px;
   justify-content: center;
   background-color: #007bff;
   padding: 20px;
-}
+} */
 
 /* Estilo de cada tarjeta */
 .card {
